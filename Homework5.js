@@ -49,7 +49,6 @@ obj = {
                 }
             
                 if(num >= 100 && num < 999) {
-                    unit = num % 10;
                     dec = num % 100;
                     hund = Math.floor(num / 100);
                     if(num % 100 === 0) {
